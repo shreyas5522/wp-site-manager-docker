@@ -15,15 +15,15 @@ Before using this script, ensure you have the following software installed on yo
 
 ```bash
 git clone https://github.com/shreyas5522/wp-site-manager.git
-
+```
 2. Change directory to the project folder:
 ```bash
 cd wp-site-manager
-
+```
 3. Make the script executable:
 ```bash
 chmod +x wp_site_manager.sh
-
+```
 ## Usage
 Run the script with the following subcommands:
 
@@ -31,26 +31,30 @@ Run the script with the following subcommands:
 To create a new WordPress site, use the `create` subcommand followed by the desired site name:
 ```bash
 ./wp_site_manager.sh create example.com
-
+```
 2. Enable/Disable a WordPress site
 To enable or disable a WordPress site, use the manage subcommand followed by the site name and the action (enable or disable):
 ```bash
 # Enable the Site:
 ./wp_site_manager.sh manage example.com enable
+```
 
 ```bash
 # Disable the Site:
 ./wp_site_manager.sh manage example.com disable
+```
 
 3. Delete a WordPress site
 To delete a WordPress site and its associated containers and volumes, use the delete subcommand followed by the site name:
 ```bash
 ./wp_site_manager.sh delete example.com
+```
 
 4. Uninstall Docker and Docker Compose
 To uninstall Docker and Docker Compose from your system, use the uninstall subcommand:
 ```bash
 ./wp_site_manager.sh uninstall
+```
 
 ## Note
 
