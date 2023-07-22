@@ -8,13 +8,13 @@ Before using this script, ensure you have the following software installed on yo
 - Linux System [preferability ubuntu]
 - Docker
 - Docker Compose
-
+![Installation Tutorial](tutorial.gif)
 ## Installation
 
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/shreyas5522/wp-site-manager.git
+https://github.com/shreyas5522/wp-site-manager-docker.git
 ```
 2. Change directory to the project folder:
 ```bash
@@ -24,6 +24,7 @@ cd wp-site-manager
 ```bash
 chmod +x wp_site_manager.sh
 ```
+
 ## Usage
 Run the script with the following subcommands:
 
