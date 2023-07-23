@@ -8,9 +8,8 @@ Before using this script, ensure you have the following software installed on yo
 - Linux System [preferability ubuntu]
 - Docker
 - Docker Compose
-![Installation Tutorial](tutorial.gif)
 ## Installation
-
+![Installation Tutorial](tutorial.gif | width=300)
 1. Clone this repository to your local machine:
 
 ```bash
