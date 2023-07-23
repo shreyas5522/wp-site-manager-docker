@@ -17,7 +17,7 @@ https://github.com/shreyas5522/wp-site-manager-docker.git
 ```
 2. Change directory to the project folder:
 ```bash
-cd wp-site-manager
+cd wp-site-manager-docker
 ```
 3. Make the script executable:
 ```bash
