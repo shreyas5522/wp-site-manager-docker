@@ -9,7 +9,7 @@ Before using this script, ensure you have the following software installed on yo
 - Docker
 - Docker Compose
 ## Installation
-![Installation Tutorial](tutorial.gif | width=300)
+![Installation Tutorial](tutorial.gif)
 1. Clone this repository to your local machine:
 
 ```bash
